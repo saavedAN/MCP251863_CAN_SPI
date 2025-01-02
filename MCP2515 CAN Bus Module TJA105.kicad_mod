@@ -1,0 +1,107 @@
+(footprint "MCP2515 CAN Bus Module TJA105" (version 20240108) (generator "pcbnew") (generator_version "8.0")
+  (layer "F.Cu")
+  (property "Reference" "REF**" (at 18.7 3.7 0)(unlocked yes)
+ (layer "F.Fab")(uuid "7c75d402-76dc-47ca-92b3-b7fbcef3d6f3")
+    (effects (font (size 1 1) (thickness 0.1)))
+  )
+  (property "Value" "MCP2515 CAN Bus Module TJA105" (at 18.5 7.5 0)(unlocked yes)
+ (layer "F.SilkS")(uuid "bf11a27c-49b5-428a-911f-83f398170aa9")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Footprint" "" (at 0 0 0)(unlocked yes)
+ (layer "F.Fab")(hide yes)
+(uuid "8b68b149-5c57-4e96-9072-b46c1e7cf790")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)(unlocked yes)
+ (layer "F.Fab")(hide yes)
+(uuid "f58e4869-5075-4275-bb37-681b8a826a96")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Description" "" (at 0 0 0)(unlocked yes)
+ (layer "F.Fab")(hide yes)
+(uuid "e9cf7d93-6470-439d-bde2-09ed65da7c39")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (attr through_hole)
+  (fp_rect (start 0 0) (end 40 28.06)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd")(uuid "583fd514-a655-4821-8e17-1dfefaccd399"))
+  (fp_text user "${REFERENCE}" (at 18.7 6.1 0)(unlocked yes)
+ (layer "F.Fab")(uuid "6566742b-63b9-45ed-90ec-c6ac1df45c93")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "1" thru_hole circle (at 2 6.44 90) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "3f54e0d1-982b-4ae5-90ec-ab8f5aef6240")
+  )
+  (pad "2" thru_hole circle (at 2 8.98 90) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "42aa01e4-8aef-4187-a8db-f50655a66eda")
+  )
+  (pad "3" thru_hole circle (at 2 11.52 90) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "cab8e118-79be-4c56-aa9d-52e067b95e21")
+  )
+  (pad "4" thru_hole circle (at 2 14.06 90) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "165be5e5-dd8b-4489-84e2-2d3bd3a0df61")
+  )
+  (pad "5" thru_hole circle (at 2 16.6) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "d7aa63d2-f481-4043-9675-8576b383a184")
+  )
+  (pad "6" thru_hole circle (at 2 19.14) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "e02d05bc-11ac-4d6e-b0f3-fe5921693961")
+  )
+  (pad "7" thru_hole circle (at 2 21.68) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "2d9c2fa1-16e9-40c6-b0d8-2150ee9a7c7b")
+  )
+  (pad "8" thru_hole circle (at 37.5 11.5) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "8d4c881f-065e-4ba2-884d-9ba1668c2fd8")
+  )
+  (pad "9" thru_hole circle (at 37.5 16.5) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "eabee240-394b-4d08-ad73-ac6c30d71ebf")
+  )
+  (group ""
+(uuid "d3f70eba-4466-4260-8d70-af98273bb07e")
+    (members
+      "3d54dd9e-b0b0-47cf-aa7a-66ac73b9b8f5"
+      "583fd514-a655-4821-8e17-1dfefaccd399"
+      "6566742b-63b9-45ed-90ec-c6ac1df45c93"
+      "7c75d402-76dc-47ca-92b3-b7fbcef3d6f3"
+      "8b68b149-5c57-4e96-9072-b46c1e7cf790"
+      "bf11a27c-49b5-428a-911f-83f398170aa9"
+      "e8c866c0-bafb-474b-b0ca-21fa0cb6a2be"
+      "e9cf7d93-6470-439d-bde2-09ed65da7c39"
+      "f58e4869-5075-4275-bb37-681b8a826a96"
+    )
+  )
+  (group ""
+(uuid "3d54dd9e-b0b0-47cf-aa7a-66ac73b9b8f5")
+    (members
+      "8d4c881f-065e-4ba2-884d-9ba1668c2fd8"
+      "eabee240-394b-4d08-ad73-ac6c30d71ebf"
+    )
+  )
+  (group ""
+(uuid "e8c866c0-bafb-474b-b0ca-21fa0cb6a2be")
+    (members
+      "165be5e5-dd8b-4489-84e2-2d3bd3a0df61"
+      "2d9c2fa1-16e9-40c6-b0d8-2150ee9a7c7b"
+      "3f54e0d1-982b-4ae5-90ec-ab8f5aef6240"
+      "42aa01e4-8aef-4187-a8db-f50655a66eda"
+      "cab8e118-79be-4c56-aa9d-52e067b95e21"
+      "d7aa63d2-f481-4043-9675-8576b383a184"
+      "e02d05bc-11ac-4d6e-b0f3-fe5921693961"
+    )
+  )
+  (model "C:/Users/Nicos/Downloads/MCP2515 CAN_SPI.stp"
+    (offset (xyz 43.2 -7.8 -3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
